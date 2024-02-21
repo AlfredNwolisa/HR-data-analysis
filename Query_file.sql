@@ -34,3 +34,5 @@ LEFT JOIN compensation c
 ON a.ID = c.ID
 LEFT JOIN Reasons r
 on a.Reason_for_absence = r.Number
+
+SELECT * from Absenteeism
